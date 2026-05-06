@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (too large for Git — use Kaggle Datasets)
+*.wav
+*.mp3
+*.zip
+*.parquet
+*.xlsx
+*.csv
+darija_corpus/
+
+# Models (use HuggingFace Hub instead)
+ner_model/
+itn_tmp/
+
+# Kaggle sentinel
+.darija_deps_installed*
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
